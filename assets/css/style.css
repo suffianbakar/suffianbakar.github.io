@@ -23,6 +23,14 @@ body {
     line-height: 1.6;
 }
 
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
 .logo {
     width: 200px;   
     height: auto;   
@@ -514,7 +522,6 @@ main{
   pointer-events: none;
 }
 
-/* Kita tambah class untuk munculkan balik loader */
 #preloader.show {
   opacity: 1;
   pointer-events: all;
