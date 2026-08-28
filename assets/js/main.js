@@ -12,3 +12,4 @@ function filterProjects(status) {
         });
     }
 
+document.getElementById("year").textContent = new Date().getFullYear();
