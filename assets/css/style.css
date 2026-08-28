@@ -234,7 +234,7 @@ main{
 
 .slider-track {
     display: flex;
-    width: calc(100px * 12); /* Lebar mengikut jumlah ikon */
+    width: calc(100px * 14); /* Lebar mengikut jumlah ikon */
     animation: scroll 20s linear infinite;
 }
 
@@ -261,7 +261,7 @@ main{
 
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100px * 6)); } /* Pusing balik selepas 6 ikon */
+    100% { transform: translateX(calc(-100px * 10)); } /* Paparkan semua ikon */
 }
 
 
